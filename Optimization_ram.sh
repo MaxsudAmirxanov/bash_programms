@@ -30,7 +30,5 @@ swapoff -a && swapon -a
 echo "Оптимизация завершена. Проверка состояния памяти:"
 free -h
 
-
-
 # ps -e -o pid,ppid,cmd,%mem,%cpu,stat,start_time --sort=-%mem | head -5
 # cat /proc/meminfo | head -20 
