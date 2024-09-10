@@ -31,5 +31,6 @@ echo "Оптимизация завершена. Проверка состоян
 free -h
 
 
+
 # ps -e -o pid,ppid,cmd,%mem,%cpu,stat,start_time --sort=-%mem | head -5
 # cat /proc/meminfo | head -20 
